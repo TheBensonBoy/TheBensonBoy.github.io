@@ -23,5 +23,6 @@ body {
 
 button {
     /* font-size: 100px; */
-    margin-top: 126%;
+    top: 100%;
+    position: absolute;
 }
