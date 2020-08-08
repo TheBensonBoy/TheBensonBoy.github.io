@@ -3,6 +3,16 @@
   height: 100%;
   position: absolute;
 }
+.reality {
+  font-size: 100px;
+  color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: "Oswald", sans-serif;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
 
 .fullspace {
   top: 100%;
@@ -14,12 +24,18 @@
   position: absolute;
 }
 
+.trolol{
+  text-align: center;
+  transform: scaleX(3);
+  font-family: "Oswald", sans-serif;
+}
+
 .hidden {
   color: white;
   left: 90%;
 }
 
-p {
+/* p {
   font-size: 100px;
   color: red;
   position: absolute;
@@ -28,10 +44,6 @@ p {
   font-family: "Oswald", sans-serif;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-}
-
-/* img {
-
 } */
 
 body {
@@ -44,6 +56,44 @@ body {
   background-image: url("https://wallpapercave.com/wp/wp4203781.jpg");
   height: 100%;
   background-position: center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
+}
+
+.welcome {
+  background-color: black;
+  color: white;
+  height: 50%;
+  text-align: center;
+}
+
+/* Dark Mode Preferences */
+@media (prefers-color-scheme: dark) {
+  .thanos {
+    opacity: 0.9;
+  }
+  .reality {
+    color: rgb(88, 4, 4);
+  }
+
+.nvrgveup{
+  opacity: 0.5;
+}
+
+.trolol{
+  color:white;
+}
+
+  .hidden {
+    color: rgb(54, 54, 56);
+  }
+
+  body {
+    background-color: rgb(54, 54, 56);
+  }
+
+  /* Hidden site dark elements */
+  .welcome{
+    background-color: gray;
+  }
 }
