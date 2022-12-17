@@ -1,0 +1,43 @@
+/* Global CSS */
+/* body {
+  margin: 0px 0px 100% 0px;
+} */
+
+.nomargin {
+  margin: 0px;
+}
+
+
+/* Button Stuffs */
+.button {
+  background-color: rgb(32, 102, 102);
+  /* color: rgb(22, 245, 245); */
+  font-family: "Prosto One", cursive;
+  font-size: 2vh;
+}
+
+a.button,
+a:visited.button,
+a:hover.button,
+a:active.button {
+  text-decoration: none;
+}
+
+/* ---------------------------------- */
+
+/* Dark Mode Preferences */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(54, 54, 56);
+  }
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: rgb(226, 223, 223);
+  }
+}

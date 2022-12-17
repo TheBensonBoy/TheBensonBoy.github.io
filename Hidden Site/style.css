@@ -1,0 +1,37 @@
+/* Hidden Site CSS */
+.welcome {
+  text-align: center;
+  font-family: "Monoton", cursive;
+  font-size: 5vh;
+  /* TODO fix this color - THis seemed to have broke while trying to fix the CSS, I am not sure */
+  color: rgb(221, 68, 241);
+}
+
+.bg {
+  background-image: url("https://wallpaperaccess.com/full/1473202.jpg");
+  /* Alternate background "https://wallpapercave.com/wp/wp4203781.jpg */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.testcss {
+  font-size: 100px;
+}
+
+S
+
+/* TODO Change whole about me look. Maybe something like a button */
+/* TODO fix this CSS into one  */
+.aboutme {
+  text-align: center;
+}
+
+a:visited.aboutme {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+/* ------------------------------------------------------------------- */
